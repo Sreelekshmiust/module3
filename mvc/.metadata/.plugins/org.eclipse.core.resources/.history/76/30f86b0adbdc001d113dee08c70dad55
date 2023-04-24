@@ -1,0 +1,19 @@
+package com.ust.rest.resource;
+
+import java.math.BigDecimal;
+
+import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
+
+public @Data class Product {
+	
+	private @Getter @Setter long productId;
+	private @Getter @Setter String name;
+	private @Getter @Setter String description;
+	private @Getter @Setter BigDecimal price;
+	private @Getter @Setter int qty;
+	
+	
+	
+}

@@ -1,0 +1,20 @@
+package com.example.microservices;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
+
+@EnableEurekaServer
+@SpringBootApplication
+public class DiscoveryServerApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(DiscoveryServerApplication.class, args);
+	}
+
+}
+/*1.Create discovery server service 
+ * 2.create a new spring boot project and add the following dependencies
+ *  -Eureka Server
+ * 3.add @EnableEurekaServer to the discovery service application class
+ */

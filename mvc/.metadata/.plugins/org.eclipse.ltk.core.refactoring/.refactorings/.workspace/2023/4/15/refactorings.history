@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename Java project &apos;firstrestmsqljpa&apos; to &apos;firstrestmysqljpa&apos;&#x0D;&#x0A;- Original element: &apos;firstrestmsqljpa&apos;&#x0D;&#x0A;- Renamed element: &apos;firstrestmsqljpa&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename Java project &apos;firstrestmsqljpa&apos;" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=firstrestmsqljpa" name="firstrestmysqljpa" references="true" stamp="1681444276920" version="1.0"/>
+</session>
